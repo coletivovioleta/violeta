@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+}
+
+/* CSS reset em alguns elementos */
+body,
+h1,
+h2,
+p,
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+h1 a {
+    
+    color:#d8dad9;
+    /* padding: 5px 15px; */
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 100;
+    text-decoration: none;
+    font-weight: bold;
+   
+}
+
+
+
+.topo-inicio{
+    text-align: center;
+    padding-top: 30px;
+    margin: 12px;
+    
+}
+.coletivotitulo{
+font-weight: bold;
+font-size: 40px;
+margin-bottom: 10px;
+background-color: rgba(75, 106, 69, 0.856);
+width: 350px;
+border-radius: 5px;
+margin-left: 6px
+}
+
+.conteudo-index{
+font-size: 20px;
+}
+
+/* .destaque-index{
+
+} */
+.limitador, .associacao, .mulheres{
+    padding-top: 20px;
+    font-weight: bold;
+    color: #456a5b;
+    margin: 15px;
+    font-size: 45px;
+    animation-name: aparecer;
+    animation-duration: 4s;
+    /* Atraso no ínicio da animação */
+    animation-delay: 4s;
+}
+.sobre-o-coletivo{
+    width:50%;
+    background-image: url(../imagem/close-up-people-connecting-through-hands.jpg);
+    background-size: contain;
+    
+}
+.missao{
+    font-size: 30px;
+    margin-top: 100px;
+     color: #631797;
+     background-color: #456a5bc0;
+     font-weight: bold;
+     padding: 10px;
+     
+}
+.texto-missao{
+    margin-left: 60%;
+    padding-top: 9px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-align: left;
+    display: flex;
+    background-color: #456a5bc0;
+    
+    
+}
+.imgcoletivo{
+  background-image: url(../imagem/);
+  width: 100%;
+  
+    
+}
+/* .localizacao{
+
+} */
+.menu{
+    margin-top: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0;
+    font-size: 20px;
+    background-color: #456a5bd7;
+    border-radius: 2px;   
+    transform: scale(1);
+    
+}
+.menu a{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    display: flex;
+    width: 25%;
+    justify-content: center;
+    height: 50%;
+    align-items: center;
+    transition: 500ms;
+    margin: 40px;
+    text-decoration: none;
+  
+}
+.menu a:hover,
+.menu a:focus {
+   background-color: hsla(300, 1%, 68%, 0.151);
+   border-radius: 7px;
+   /* width: 400px; */
+   color: #e4e4e4;
+   transform: scale(1.2);
+}
+.destaque-index {
+    color: white;
+    text-align: center;
+   
+    background-position: -10px;
+    opacity: 0.7;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    
+}
+.destaque h2 {
+    color: #631797;
+    font-size: 64px;
+    animation-name: aparecer;
+    animation-duration: 4s;
+}
+.destaque-index{
+    font-size: 32px;
+    font-weight: bold;
+    animation-name: aparecer;
+    animation-duration: 2s;
+    /* Atraso no ínicio da animação */
+    animation-delay: 2s;
+}
+@keyframes aparecer {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+}
+
+article h2 {
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    padding: 10px;
+    color: gray
+}
+article p {
+    padding: 5px;
+}
+.mapa {
+    width: 100%;
+}
+.rodape {
+    background-color: #456a5b;
+    color: #ffffff;
+    height: 200px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topo-inicio{
+    background-color: #b063d7ec;
+    border-radius: 15px;
+    width: 98%;
+    margin: auto;
+}
+@media screen and (min-width: 600px) {
+    .topo {
+       
+        padding-top: 0;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        height: 70px;
+        width: 90%;
+    }
+    }
+    
+    .logo-final {
+      width: 100;
+    }
+
+    .topo-inicio {
+        background-color: #b063d7ec;
+        border-radius: 20px;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .menu {
+        margin-top: 10px;
+        height: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px;
+        font-size: 20px;
+        background-color: #456a5bd7;
+        border-radius: 2px;
+        transform: scale(1);
+    }
